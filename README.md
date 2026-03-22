@@ -18,13 +18,32 @@ Graduate-level coursework demonstrating proficiency across the full BI and analy
 
 | File | Description |
 |------|-------------|
-| `Assignment 1_Excel Pivot Tables.docx` | Sales data analysis using Excel PivotTables — covers data summarization, grouping, and multi-dimensional reporting |
-| `SalesdataPivotV01_WWestbrook.xlsx` | Excel workbook with pivot tables built on structured sales data |
-| `Advanced SQL assignment.docx` | Advanced SQL queries demonstrating complex data retrieval and transformation techniques |
-| `SAP enterprise reporting.docx` | Enterprise reporting exercise conducted within SAP's BI environment |
-| `Term Project Benchmarks WWestbrook.docx` | Term project documentation covering SAP BW implementation benchmarks |
-| `benchmark 4 csv file ss.PNG` | Screenshot of structured product master data (CSV) used for SAP BW data loading |
-| `benchmark 4 ss.PNG` | Screenshot of SAP BW InfoObject master data management interface after successful data load |
+| `assignments/excel_pivot_tables_assignment.docx` | Sales data analysis using Excel PivotTables — covers data summarization, grouping, and multi-dimensional reporting |
+| `assignments/advanced_sql_assignment.docx` | Advanced SQL queries demonstrating complex data retrieval and transformation techniques |
+| `assignments/sap_enterprise_reporting.docx` | Enterprise reporting exercise conducted within SAP's BI environment |
+| `assignments/term_project_benchmarks.docx` | Term project documentation covering SAP BW implementation benchmarks |
+| `data/sales_data_pivot.xlsx` | Excel workbook with pivot tables built on structured sales data |
+| `visuals/sap_bw_csv_data_screenshot.png` | Screenshot of structured product master data (CSV) used for SAP BW data loading |
+| `visuals/sap_bw_infobject_screenshot.png` | Screenshot of SAP BW InfoObject master data management interface after successful data load |
+
+---
+
+## Repository Structure
+
+```text
+business-intelligence-and-enterprise-analytics/
+├── README.md
+├── assignments/
+│   ├── excel_pivot_tables_assignment.docx
+│   ├── advanced_sql_assignment.docx
+│   ├── sap_enterprise_reporting.docx
+│   └── term_project_benchmarks.docx
+├── data/
+│   └── sales_data_pivot.xlsx
+└── visuals/
+    ├── sap_bw_csv_data_screenshot.png
+    └── sap_bw_infobject_screenshot.png
+```
 
 ---
 
@@ -49,7 +68,7 @@ This mirrors real-world enterprise data workflows where source system data must 
 
 ## About This Repository
 
-This repository is part of a broader data and analytics portfolio. The work here reflects applied skills in enterprise systems and business intelligence that are directly relevant to roles in:
+This repository is part of a broader data and analytics portfolio. The work here reflects applied skills in enterprise systems and business intelligence directly relevant to roles in:
 
 - Data Analysis
 - Business Intelligence Engineering
